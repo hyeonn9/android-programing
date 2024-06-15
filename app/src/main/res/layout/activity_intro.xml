@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="40dp"
+            android:text="오늘을 더 담백하고"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="40dp"
+            android:text="특별하게 보내세요!"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/icon_note"
+            android:scaleType="fitXY"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="40dp">
+
+            <Button
+                android:id="@+id/btnGo"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="바로 가기"
+                android:textSize="20dp"
+                android:textColor="@color/gray"
+                android:layout_marginTop="420dp"
+                android:layout_marginBottom="15dp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

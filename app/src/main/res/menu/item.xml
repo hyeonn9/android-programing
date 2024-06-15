@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <item
+        android:title="일기"
+        android:id="@+id/page1"
+        android:icon="@drawable/icon_calendar"
+        />
+    <item
+        android:title="할 일"
+        android:id="@+id/page2"
+        android:icon="@drawable/icon_todo"
+        />
+    <item
+        android:title="명언"
+        android:id="@+id/page3"
+        android:icon="@drawable/icon_wiseword"
+        />
+</menu>
